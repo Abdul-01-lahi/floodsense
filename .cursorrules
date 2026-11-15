@@ -1,0 +1,7 @@
+Stack: Vite, React, TypeScript, Tailwind, Motion, Recharts.
+Mobile first, 360px wide. Large tap targets (min 48px). Simple English.
+Animate only transform and opacity.
+All data is read from /public/data/*.json. Never hardcode game data in components.
+Types live in src/types.ts. Do not change them unless told.
+One component per file, under 150 lines.
+No external image files. Use SVG or emoji icons.

@@ -1,0 +1,107 @@
+[
+  {
+    "round_id": 1,
+    "district": "Sunsari",
+    "season": "2024 monsoon",
+    "week": 2,
+    "conditions": {
+      "rainfall_7day_mm": 84.6,
+      "rainfall_30day_mm": 196.2,
+      "soil_moisture": 0.42,
+      "upstream_rainfall_mm": 112.8,
+      "cropland_share_pct": 68.4
+    },
+    "model_risk": "low",
+    "actual_outcome": "no_flood",
+    "top_factors": [
+      "Moderate 7-day rainfall",
+      "Low upstream rainfall",
+      "Soil moisture below saturation"
+    ],
+    "explanation": "Rainfall was moderate and soils still had storage capacity, so flood likelihood remained low."
+  },
+  {
+    "round_id": 2,
+    "district": "Morang",
+    "season": "2024 monsoon",
+    "week": 4,
+    "conditions": {
+      "rainfall_7day_mm": 146.3,
+      "rainfall_30day_mm": 324.7,
+      "soil_moisture": 0.61,
+      "upstream_rainfall_mm": 188.5,
+      "cropland_share_pct": 72.1
+    },
+    "model_risk": "rising",
+    "actual_outcome": "no_flood",
+    "top_factors": [
+      "Increasing 30-day rainfall",
+      "Elevated upstream rainfall",
+      "High cropland share"
+    ],
+    "explanation": "Repeated rainfall and wetter soils increased risk, but river levels stayed within channel capacity."
+  },
+  {
+    "round_id": 3,
+    "district": "Saptari",
+    "season": "2023 monsoon",
+    "week": 6,
+    "conditions": {
+      "rainfall_7day_mm": 238.9,
+      "rainfall_30day_mm": 512.4,
+      "soil_moisture": 0.86,
+      "upstream_rainfall_mm": 296.7,
+      "cropland_share_pct": 75.8
+    },
+    "model_risk": "critical",
+    "actual_outcome": "flood",
+    "top_factors": [
+      "Very high 7-day rainfall",
+      "Saturated soil",
+      "Heavy upstream rainfall"
+    ],
+    "explanation": "Persistent heavy rain saturated the soil while upstream rainfall increased runoff into low-lying areas."
+  },
+  {
+    "round_id": 4,
+    "district": "Rautahat",
+    "season": "2023 monsoon",
+    "week": 3,
+    "conditions": {
+      "rainfall_7day_mm": 171.5,
+      "rainfall_30day_mm": 287.9,
+      "soil_moisture": 0.68,
+      "upstream_rainfall_mm": 221.4,
+      "cropland_share_pct": 64.7
+    },
+    "model_risk": "rising",
+    "actual_outcome": "flood",
+    "top_factors": [
+      "High upstream rainfall",
+      "Wet soil conditions",
+      "Rapid 7-day rainfall increase"
+    ],
+    "explanation": "A short burst of upstream rainfall pushed runoff into flood-prone settlements despite only moderately wet monthly totals."
+  },
+  {
+    "round_id": 5,
+    "district": "Banke",
+    "season": "2022 monsoon",
+    "week": 8,
+    "conditions": {
+      "rainfall_7day_mm": 312.8,
+      "rainfall_30day_mm": 648.1,
+      "soil_moisture": 0.93,
+      "upstream_rainfall_mm": 354.6,
+      "cropland_share_pct": 59.3
+    },
+    "model_risk": "critical",
+    "actual_outcome": "flood",
+    "top_factors": [
+      "Extreme 7-day rainfall",
+      "Near-saturated soil",
+      "Extreme upstream rainfall"
+    ],
+    "explanation": "Extreme rainfall across the catchment left almost no soil storage and generated severe downstream runoff."
+  }
+]

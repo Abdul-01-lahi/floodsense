@@ -1,0 +1,104 @@
+[
+  {
+    "variable": "Monsoon rainfall",
+    "unit": "mm",
+    "seasons": [
+      {
+        "season": "2019 monsoon",
+        "value": 1124.6
+      },
+      {
+        "season": "2020 monsoon",
+        "value": 1188.3
+      },
+      {
+        "season": "2021 monsoon",
+        "value": 1214.9
+      },
+      {
+        "season": "2022 monsoon",
+        "value": 1297.5
+      },
+      {
+        "season": "2023 monsoon",
+        "value": 1356.8
+      },
+      {
+        "season": "2024 monsoon",
+        "value": 1412.2
+      }
+    ],
+    "trend": "increasing",
+    "significant": true,
+    "test": "Mann-Kendall",
+    "p_value": 0.018
+  },
+  {
+    "variable": "Soil moisture",
+    "unit": "fraction",
+    "seasons": [
+      {
+        "season": "2019 monsoon",
+        "value": 0.58
+      },
+      {
+        "season": "2020 monsoon",
+        "value": 0.61
+      },
+      {
+        "season": "2021 monsoon",
+        "value": 0.6
+      },
+      {
+        "season": "2022 monsoon",
+        "value": 0.66
+      },
+      {
+        "season": "2023 monsoon",
+        "value": 0.7
+      },
+      {
+        "season": "2024 monsoon",
+        "value": 0.73
+      }
+    ],
+    "trend": "increasing",
+    "significant": true,
+    "test": "Mann-Kendall",
+    "p_value": 0.032
+  },
+  {
+    "variable": "Cropland vegetation index",
+    "unit": "NDVI",
+    "seasons": [
+      {
+        "season": "2019 monsoon",
+        "value": 0.62
+      },
+      {
+        "season": "2020 monsoon",
+        "value": 0.64
+      },
+      {
+        "season": "2021 monsoon",
+        "value": 0.63
+      },
+      {
+        "season": "2022 monsoon",
+        "value": 0.61
+      },
+      {
+        "season": "2023 monsoon",
+        "value": 0.59
+      },
+      {
+        "season": "2024 monsoon",
+        "value": 0.57
+      }
+    ],
+    "trend": "decreasing",
+    "significant": false,
+    "test": "Mann-Kendall",
+    "p_value": 0.114
+  }
+]
